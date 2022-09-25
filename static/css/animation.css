@@ -1,0 +1,163 @@
+.left-right-animation {
+    animation: left_right 3s ease-in infinite alternate-reverse;
+  }
+  
+  @-webkit-keyframes left_right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-20px);
+              transform: translateX(-20px);
+    }
+  }
+  
+  @keyframes left_right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-20px);
+              transform: translateX(-20px);
+    }
+  }
+  
+  .up-down-animation {
+    animation: up_down 3s ease-in infinite alternate-reverse;
+  }
+  
+  @-webkit-keyframes up_down {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes up_down {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+  }
+  
+
+.hero-bg-1 {
+    position: absolute;
+    left: 30px;
+    top: 200px;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-bg-1 {
+      display: none;
+    }
+  }
+  
+  .hero-bg-2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-bg-2 {
+      display: none;
+    }
+  }
+  
+  .hero-bg-3 {
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-bg-3 {
+      display: none;
+    }
+  }
+  
+  .hero-bg-4 {
+    top: 210px;
+    right: 40%;
+    position: absolute;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-bg-4 {
+      display: none;
+    }
+  }
+  
+  .hero-bg-5 {
+    position: absolute;
+    top: 250px;
+    right: 17%;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-bg-5 {
+      display: none;
+    }
+  }
+  
+  .hero-bg-6 {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-bg-6 {
+      display: none;
+    }
+  }
+  
+  .hero-bg-7 {
+    position: absolute;
+    left: 20%;
+    bottom: -17%;
+    z-index: 1;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-bg-7 {
+      display: none;
+    }
+  }
+  
+  .hero-bg-8 {
+    position: absolute;
+    bottom: -30%;
+    right: 50%;
+    z-index: 1;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-bg-8 {
+      display: none;
+    }
+  }
+  
+  .hero-bg-9 {
+    position: absolute;
+    right: 20%;
+    bottom: -10%;
+    z-index: 1;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-bg-9 {
+      display: none;
+    }
+  }
